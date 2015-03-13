@@ -1,8 +1,12 @@
 package a2_0
 
+import java.util.scanner;
+
 public class ExprTree {
 	
 	public String expr;
+	Scanner scan = new Scanner(System.in);
+	
 
 	public ExprTree(String expression) {
 		this.expression = expr;
@@ -20,8 +24,11 @@ public class ExprTree {
 		String a;
 		if (Character.Trees.digit(a)) {
 			return a;
-		} else if () {
+		} else if (scan.next() == "(") {
 			
+		}
+		if (scan.next() != ")") {
+			System.out.println("Missing right bracket");
 		}
 	}
 
