@@ -1,0 +1,28 @@
+package a2_0
+
+public class ExprTree {
+	
+	public String expr;
+
+	public ExprTree(String expression) {
+		this.expression = expr;
+	}
+
+	public String getExpression() {
+		return this.expr;
+	}
+
+	public void setExpression(String expression) {
+		this.expr = expression;
+	}
+
+	public String expressionValue() {
+		String a;
+		if (Character.Trees.digit(a)) {
+			return a;
+		} else if () {
+			
+		}
+	}
+
+}
